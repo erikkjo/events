@@ -1,0 +1,28 @@
+{
+	"id": "b9e039cc-079d-4488-baff-2871ac06a02a",
+	"createdAt": "2022-06-12T14:10:30.000Z",
+	"createdBy": "ole-andre.haugen@neptune-software.com",
+	"fields": [
+		{
+			"id": "71dd7857-1e4d-4f3b-dc1e-bdf0bbb3e369",
+			"fieldName": "key",
+			"fieldType": "smalltext",
+			"isNullable": false
+		},
+		{
+			"id": "9dafbfc6-f5c0-4933-eefe-dcec07d20bdd",
+			"fieldName": "name",
+			"fieldType": "mediumtext",
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "event_activity_target_group",
+	"description": "Event: Aktivity Target Group",
+	"ver": "22.6.12.1610",
+	"enableAudit": false,
+	"package": "3f97e980-7613-4613-b374-7ad2f7f76664",
+	"rolesRead": [],
+	"rolesWrite": []
+}

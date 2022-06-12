@@ -1,0 +1,156 @@
+{
+	"id": "ec6b76af-ce3e-40be-bf9f-2a7115291611",
+	"createdAt": "2022-06-12T14:15:34.000Z",
+	"createdBy": "ole-andre.haugen@neptune-software.com",
+	"settings": {
+		"properties": {
+			"report": {
+				"showIcon": true,
+				"iconButtonClose": "",
+				"textButtonClose": "Close",
+				"typeButtonClose": "Transparent",
+				"iconButtonCreate": "",
+				"textButtonCreate": "Opprett",
+				"typeButtonCreate": "Emphasized",
+				"iconButtonExport": "sap-icon://excel-attachment",
+				"textButtonExport": "",
+				"typeButtonExport": "Transparent",
+				"iconButtonImport": "sap-icon://fa-solid/file-import",
+				"textButtonImport": "",
+				"typeButtonImport": "Transparent",
+				"iconButtonMultiSelect": "",
+				"textButtonMultiSelect": "MultiSelect",
+				"typeButtonMultiSelect": "Emphasized",
+				"iconButtonRun": "sap-icon://synchronize",
+				"textButtonRun": "",
+				"typeButtonRun": "Transparent",
+				"enableRun": true,
+				"enableCreate": true,
+				"enableClose": false,
+				"enableDelete": true,
+				"enableExport": false,
+				"enableImport": false,
+				"enableMultiSelect": false,
+				"enableVariant": false,
+				"hideHeader": false,
+				"autoRun": true,
+				"autoRunFocus": true,
+				"searchLabel": "Search",
+				"searchPlaceholder": "",
+				"title": "Activity",
+				"subTitle": "Type",
+				"avatarIcon": "sap-icon://tnt/Value type"
+			},
+			"form": {
+				"enableCompact": false,
+				"headerExpanded": true
+			},
+			"table": {
+				"enablePagination": false,
+				"paginationShowSelection": false,
+				"paginationRows": 25,
+				"action1Text": "",
+				"action1Type": "Transparent",
+				"action2Text": "",
+				"action2Type": "Transparent",
+				"action3Text": "",
+				"action3Type": "Transparent",
+				"alternateRowColors": false,
+				"enableCompact": false,
+				"enableAction1": false,
+				"enableAction2": false,
+				"enableAction3": false,
+				"fixedLayout": false,
+				"inset": false
+			}
+		},
+		"fieldCatalog": [
+			{
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "key",
+				"label": "key",
+				"type": "smalltext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "name",
+				"label": "name",
+				"type": "mediumtext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedAt",
+				"label": "Updated At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedBy",
+				"label": "Updated By",
+				"type": "text",
+				"usage": "BOTH"
+			}
+		],
+		"fieldsSel": [],
+		"fieldsRun": [
+			{
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": true,
+				"name": "key",
+				"text": "Key",
+				"fieldPos": 1,
+				"type": "Input",
+				"editable": true
+			},
+			{
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": true,
+				"name": "name",
+				"text": "Name",
+				"fieldPos": 2,
+				"type": "Input",
+				"editable": true
+			}
+		],
+		"defaultVariant": {
+			"id": "4dd97c43-632a-4db0-dfb6-2d110fa88be9",
+			"colOrder": "key_a_to_z",
+			"rowOrder": "key_a_to_z",
+			"row": [],
+			"column": [],
+			"val": [],
+			"inclusions": {},
+			"exclusions": {}
+		}
+	},
+	"name": "event_activity_type",
+	"description": "",
+	"group": "",
+	"type": "C",
+	"connectorid": "52950514-1876-4bbf-a0c1-c646f4fc3015",
+	"scriptSel": null,
+	"scriptRun": null,
+	"tableid": null,
+	"ver": "22.6.12.1619",
+	"disabled": false,
+	"appType": "A",
+	"application": "planet9_adaptive_list",
+	"package": "3f97e980-7613-4613-b374-7ad2f7f76664",
+	"roles": [],
+	"scriptSelObj": null,
+	"scriptRunObj": null,
+	"tableObj": null
+}

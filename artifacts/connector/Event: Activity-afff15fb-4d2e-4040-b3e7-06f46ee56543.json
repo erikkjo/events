@@ -1,0 +1,17 @@
+{
+	"id": "afff15fb-4d2e-4040-b3e7-06f46ee56543",
+	"createdAt": "2022-06-12T13:37:20.000Z",
+	"createdBy": "ole-andre.haugen@neptune-software.com",
+	"settings": {
+		"tableid": "816b6645-275c-4755-ad84-39181940b713",
+		"hasDocumentation": false
+	},
+	"documentation": {},
+	"name": "Event: Activity",
+	"description": "Event: Activity",
+	"group": null,
+	"type": "T",
+	"ver": "22.6.12.1732",
+	"disabled": false,
+	"package": "3f97e980-7613-4613-b374-7ad2f7f76664"
+}

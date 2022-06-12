@@ -1,0 +1,76 @@
+{
+	"id": "816b6645-275c-4755-ad84-39181940b713",
+	"createdAt": "2022-06-12T11:17:26.000Z",
+	"createdBy": "ole-andre.haugen@neptune-software.com",
+	"fields": [
+		{
+			"id": "fad61873-119e-418f-9d58-b26578be1cc4",
+			"fieldName": "organisasjonsnummer",
+			"fieldType": "mediumtext",
+			"isNullable": false
+		},
+		{
+			"id": "f4b1aed0-c4f6-44f4-cebd-42e966c5dc63",
+			"fieldName": "title",
+			"fieldType": "mediumtext",
+			"isNullable": true
+		},
+		{
+			"id": "0cfeb094-36f5-43b5-b9bb-4425e954c80e",
+			"fieldName": "description",
+			"fieldType": "text",
+			"isNullable": true
+		},
+		{
+			"id": "211e30ae-6311-4d8b-d32a-65b2878be659",
+			"fieldName": "category",
+			"fieldType": "smalltext",
+			"isNullable": true
+		},
+		{
+			"id": "344f6a9a-aaba-4684-9f09-be8ba76178ab",
+			"fieldName": "type",
+			"fieldType": "smalltext",
+			"isNullable": true
+		},
+		{
+			"id": "ed479c03-ca0d-4096-88e0-03751350e9a6",
+			"fieldName": "targetgroup",
+			"fieldType": "smalltext",
+			"isNullable": true
+		},
+		{
+			"id": "6609283c-3734-4a8e-e7be-667e72a589e7",
+			"fieldName": "image",
+			"fieldType": "mediumtext",
+			"isNullable": true
+		},
+		{
+			"id": "586f452a-f8a0-4e95-a5d9-9c4888aff665",
+			"fieldName": "nocost",
+			"fieldType": "boolean",
+			"isNullable": true
+		},
+		{
+			"id": "b9d1c2b1-a770-4f59-aeea-e167d091b4df",
+			"fieldName": "startdate",
+			"fieldType": "timestamptz",
+			"isNullable": true
+		},
+		{
+			"id": "4650b264-21a7-4433-b525-82da1b241e4a",
+			"fieldName": "enddate",
+			"fieldType": "timestamptz",
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "event_activity",
+	"description": "Event: Activity",
+	"ver": "22.6.12.1723",
+	"enableAudit": false,
+	"package": "3f97e980-7613-4613-b374-7ad2f7f76664",
+	"rolesRead": [],
+	"rolesWrite": []
+}

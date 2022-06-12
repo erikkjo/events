@@ -1,0 +1,270 @@
+{
+	"id": "3f97e980-7613-4613-b374-7ad2f7f76664",
+	"createdAt": "2022-06-12T11:05:51.000Z",
+	"createdBy": "ole-andre.haugen@neptune-software.com",
+	"git": {
+		"targetServers": [],
+		"remote": "https://github.com/OleAndreHaugen/events.git",
+		"testServers": [],
+		"packageJSON": [
+			"==OBJECT STRING==",
+			"{",
+			"  \"name\": \"com.skyetec.events\",",
+			"  \"version\": \"1.0.0\",",
+			"  \"description\": \"Event Solution\",",
+			"  \"author\": \"Neptune Software\",",
+			"  \"license\": \"LicenseRef-LICENSE\",",
+			"  \"private\": true,",
+			"  \"scripts\": {",
+			"    \"deploy\": \"ts-node src/deploy.ts\",",
+			"    \"test\": \"jest --passWithNoTests\"",
+			"  },",
+			"  \"engines\": {",
+			"    \"node\": \"14.16.0\"",
+			"  },",
+			"  \"devDependencies\": {",
+			"    \"@types/jest\": \"^26.0.23\",",
+			"    \"typescript\": \"^4.2.3\",",
+			"    \"ts-node\": \"^10.0.0\",",
+			"    \"axios\": \"^0.21.1\",",
+			"    \"jest\": \"^27.0.4\",",
+			"    \"ts-jest\": \"^27.0.3\"",
+			"  }",
+			"}",
+			""
+		]
+	},
+	"name": "com.skyetec.events",
+	"description": "Event Solution",
+	"ver": "22.6.13.10",
+	"enableCICD": true,
+	"apps": [
+		{
+			"id": "8081027f-f856-4e39-bfee-c0337e72bdec",
+			"application": "event_organisation_edit",
+			"title": "",
+			"description": ""
+		}
+	],
+	"api": [
+		{
+			"id": "3ed38dd4-6f12-476b-a168-604ca4ff80d2",
+			"name": "Enhetsregisteret",
+			"description": "Enhetsregisteret",
+			"apiGroup": "f90a7360-b5c2-41cb-889f-a4c9ec5f6a58"
+		},
+		{
+			"id": "dc4ec3b4-a07e-46e6-afcb-c359acae7ef5",
+			"name": "EventClient",
+			"description": "Events: Client API",
+			"apiGroup": "f90a7360-b5c2-41cb-889f-a4c9ec5f6a58"
+		}
+	],
+	"odataSource": [],
+	"odataMock": [],
+	"dictionary": [
+		{
+			"id": "269d7a83-4cc0-4688-a58a-913787ab0096",
+			"name": "event_organisation",
+			"description": "Event: Organisation"
+		},
+		{
+			"id": "816b6645-275c-4755-ad84-39181940b713",
+			"name": "event_activity",
+			"description": "Event: Activity"
+		},
+		{
+			"id": "c332b331-e890-428f-853e-54aac9989adf",
+			"name": "event_activity_category",
+			"description": "Event: Aktivity Category"
+		},
+		{
+			"id": "b53e70f6-3864-4ce2-afee-0b5fbbcfc363",
+			"name": "event_activity_type",
+			"description": "Event: Aktivity Type"
+		},
+		{
+			"id": "b9e039cc-079d-4488-baff-2871ac06a02a",
+			"name": "event_activity_target_group",
+			"description": "Event: Aktivity Target Group"
+		}
+	],
+	"jsclass": [
+		{
+			"id": "d0267c8d-4f96-43d3-b5b8-99c12c0c2779",
+			"name": "import",
+			"description": null
+		},
+		{
+			"id": "b5af1d24-1862-4881-96de-23425dc6e58b",
+			"name": "masterdata",
+			"description": null
+		},
+		{
+			"id": "be334a53-12b9-433e-929c-13d73f45306a",
+			"name": "activitylist",
+			"description": null
+		}
+	],
+	"jsscript_group": [
+		{
+			"id": "3b6f01ae-36a9-4616-838e-5644ffef987c",
+			"name": "EventClient",
+			"description": null
+		}
+	],
+	"theme": [],
+	"pdf": [],
+	"rulesengine": [],
+	"reports": [
+		{
+			"id": "38bda0fe-bcb5-4980-b950-647cce86fdc8",
+			"name": "event_organisation_list",
+			"description": "",
+			"application": "planet9_adaptive_list"
+		},
+		{
+			"id": "f939ce53-448e-48d7-9b47-ffabf2bb79eb",
+			"name": "event_organisation_detail",
+			"description": "",
+			"application": "planet9_adaptive_edit"
+		},
+		{
+			"id": "5dae2aea-1f9a-4383-8d8a-85949518dcd3",
+			"name": "events_organisation_tile",
+			"description": "",
+			"application": "planet9_adaptive_tile_chart"
+		},
+		{
+			"id": "ee1572a1-9697-41d2-823e-8504d0926503",
+			"name": "event_activity_edit",
+			"description": "",
+			"application": "planet9_adaptive_edit"
+		},
+		{
+			"id": "c26488d2-7063-4dd3-8c02-4c0773e46cd5",
+			"name": "event_activity_list_child",
+			"description": "",
+			"application": "planet9_adaptive_list"
+		},
+		{
+			"id": "d027595d-eb44-44d1-8dee-b9bac5de74b1",
+			"name": "event_activity_category",
+			"description": "",
+			"application": "planet9_adaptive_list"
+		},
+		{
+			"id": "ec6b76af-ce3e-40be-bf9f-2a7115291611",
+			"name": "event_activity_type",
+			"description": "",
+			"application": "planet9_adaptive_list"
+		},
+		{
+			"id": "e911bde2-e659-4743-9178-5d6c7609138e",
+			"name": "event_activity_target_group",
+			"description": "",
+			"application": "planet9_adaptive_list"
+		},
+		{
+			"id": "e2c4aef0-48e7-4856-81f6-ff1af8f3a93d",
+			"name": "event_activity_list",
+			"description": "",
+			"application": "planet9_adaptive_list"
+		},
+		{
+			"id": "fe195463-1b49-480e-a7b7-f36d2a69f18e",
+			"name": "event_aktivity_tile",
+			"description": "",
+			"application": "planet9_adaptive_tile_chart"
+		}
+	],
+	"api_authentication": [],
+	"api_group": [
+		{
+			"id": "f90a7360-b5c2-41cb-889f-a4c9ec5f6a58",
+			"name": "Events",
+			"description": null
+		}
+	],
+	"tile": [
+		{
+			"id": "c219c467-5d7b-40f6-87bd-32b69b0c84b8",
+			"description": null,
+			"name": "Event: Enheter"
+		},
+		{
+			"id": "9ce71a2f-f207-4618-a6c3-653e28b32e3a",
+			"description": null,
+			"name": "Event: Aktivitet Type"
+		},
+		{
+			"id": "d8bfb639-91da-4760-976a-e16972dbf7a9",
+			"description": null,
+			"name": "Event: Aktivitet Category"
+		},
+		{
+			"id": "c9a10ea3-a248-40da-8ece-fb870a015771",
+			"description": null,
+			"name": "Event: Aktivitet Target Group"
+		},
+		{
+			"id": "4238e7d3-2572-4910-89ee-8b7645ea8e02",
+			"description": null,
+			"name": "Event: Aktiviteter"
+		}
+	],
+	"category": [
+		{
+			"id": "a3fab96f-1263-41d3-bc9b-6938e313421d",
+			"description": null,
+			"name": "Events"
+		},
+		{
+			"id": "30a981c2-5550-452f-ac49-0c5fbf9119d5",
+			"description": null,
+			"name": "Events Masterdata"
+		}
+	],
+	"launchpad": [
+		{
+			"id": "ece807a7-90f6-4f1a-8735-cf1c5c2001d8",
+			"name": "Events",
+			"description": null
+		}
+	],
+	"certificates": [],
+	"role": [],
+	"systems": [],
+	"doc": [],
+	"wf_notifications": [],
+	"department": [],
+	"script_scheduler": [],
+	"wf_definition": [],
+	"connector": [
+		{
+			"id": "c484a1b7-42f1-4a4a-a620-6df680720366",
+			"name": "Event: Organisation",
+			"description": "Event: Organisation"
+		},
+		{
+			"id": "afff15fb-4d2e-4040-b3e7-06f46ee56543",
+			"name": "Event: Activity",
+			"description": "Event: Activity"
+		},
+		{
+			"id": "52950514-1876-4bbf-a0c1-c646f4fc3015",
+			"name": "Event: Activity Type",
+			"description": "Event: Activity Type"
+		},
+		{
+			"id": "9a36afe5-da8e-4c7d-9c2d-bcf1d0fa427d",
+			"name": "Event: Activity Target Group",
+			"description": "Event: Activity Target Group"
+		},
+		{
+			"id": "c03ba4c7-570f-4e1d-943a-892b93b0962d",
+			"name": "Event: Activity Category",
+			"description": "Event: Activity Category"
+		}
+	]
+}

@@ -1,0 +1,55 @@
+{
+	"id": "b5af1d24-1862-4881-96de-23425dc6e58b",
+	"createdAt": "2022-06-12T15:51:28.000Z",
+	"createdBy": "ole-andre.haugen@neptune-software.com",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [
+		{
+			"id": "c332b331-e890-428f-853e-54aac9989adf",
+			"name": "event_activity_category",
+			"contextname": "event_activity_category"
+		},
+		{
+			"id": "b9e039cc-079d-4488-baff-2871ac06a02a",
+			"name": "event_activity_target_group",
+			"contextname": "event_activity_target_group"
+		},
+		{
+			"id": "b53e70f6-3864-4ce2-afee-0b5fbbcfc363",
+			"name": "event_activity_type",
+			"contextname": "event_activity_type"
+		},
+		{
+			"id": "269d7a83-4cc0-4688-a58a-913787ab0096",
+			"name": "event_organisation",
+			"contextname": "event_organisation"
+		}
+	],
+	"apis": [],
+	"name": "masterdata",
+	"ver": "22.6.13.046",
+	"description": null,
+	"content": [
+		"==OBJECT STRING==",
+		"const category = await entities.event_activity_category.find();\r",
+		"const type = await entities.event_activity_type.find();\r",
+		"const targetgroup = await entities.event_activity_target_group.find();\r",
+		"const organisation = await entities.event_organisation.find();\r",
+		"\r",
+		"result.data = {\r",
+		"    category: category,\r",
+		"    type: type,\r",
+		"    targetgroup: targetgroup,\r",
+		"    organisation: organisation\r",
+		"}\r",
+		"\r",
+		"complete();"
+	],
+	"useAsGlobalScript": false,
+	"isTypescript": false,
+	"transpiledContent": null,
+	"lastRunSuccessful": false,
+	"jsscriptGroup": "3b6f01ae-36a9-4616-838e-5644ffef987c",
+	"package": "3f97e980-7613-4613-b374-7ad2f7f76664"
+}

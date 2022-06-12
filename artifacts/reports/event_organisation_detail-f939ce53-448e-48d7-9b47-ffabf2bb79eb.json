@@ -1,0 +1,401 @@
+{
+	"id": "f939ce53-448e-48d7-9b47-ffabf2bb79eb",
+	"createdAt": "2022-06-12T11:29:35.000Z",
+	"createdBy": "ole-andre.haugen@neptune-software.com",
+	"settings": {
+		"properties": {
+			"report": {
+				"showIcon": true,
+				"iconButtonClose": "",
+				"textButtonClose": "Lukk",
+				"typeButtonClose": "Default",
+				"iconButtonSave": "",
+				"textButtonSave": "Lagre",
+				"textToastSave": "Saved",
+				"typeButtonSave": "Emphasized",
+				"tab0Text": "Detaljer",
+				"tab1Text": "Aktiviteter",
+				"tab2Text": "Tab 2",
+				"tab3Text": "Tab 3",
+				"tab4Text": "Tab 4",
+				"tab5Text": "Tab 5",
+				"enableClose": true,
+				"enableSave": true,
+				"enableTab1": true,
+				"enableTab2": false,
+				"enableTab3": false,
+				"enableTab4": false,
+				"enableTab5": false,
+				"title": "Enhet",
+				"avatarIcon": "sap-icon://customer-and-supplier",
+				"subTitle": "Detaljer",
+				"_tab1Nav": {
+					"destinationType": "F",
+					"openAs": "P",
+					"butType": "Accept",
+					"destinationTargetF": "c26488d2-7063-4dd3-8c02-4c0773e46cd5",
+					"keyField": [
+						{
+							"fieldName": "organisasjonsnummer",
+							"key": "organisasjonsnummer",
+							"value": ""
+						}
+					]
+				}
+			},
+			"form": {
+				"enableCompact": false,
+				"enableCentered": false,
+				"columnsL": "2",
+				"columnsM": "2",
+				"titleLevel": "H3",
+				"labelSpanL": "12",
+				"labelSpanM": "12"
+			},
+			"table": {}
+		},
+		"fieldCatalog": [
+			{
+				"name": "organisasjonsnummer",
+				"label": "Organisasjonsnummer",
+				"type": "mediumtext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "navn",
+				"label": "Navn",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "organisasjonsform_kode",
+				"label": "organisasjonsform_kode",
+				"type": "smalltext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "organisasjonsform_navn",
+				"label": "organisasjonsform_navn",
+				"type": "mediumtext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "registreringsdatoEnhetsregisteret",
+				"label": "registreringsdatoEnhetsregisteret",
+				"type": "mediumtext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "registrertIMvaregisteret",
+				"label": "registrertIMvaregisteret",
+				"type": "boolean",
+				"usage": "BOTH"
+			},
+			{
+				"name": "naeringskode1_kode",
+				"label": "naeringskode1_kode",
+				"type": "smalltext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "naeringskode1_navn",
+				"label": "naeringskode1_navn",
+				"type": "mediumtext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "antallAnsatte",
+				"label": "antallAnsatte",
+				"type": "integer",
+				"usage": "BOTH"
+			},
+			{
+				"name": "forretningsadresse_land",
+				"label": "forretningsadresse_land",
+				"type": "mediumtext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "forretningsadresse_landkode",
+				"label": "forretningsadresse_landkode",
+				"type": "smalltext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "forretningsadresse_postnummer",
+				"label": "forretningsadresse_postnummer",
+				"type": "mediumtext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "forretningsadresse_poststed",
+				"label": "forretningsadresse_poststed",
+				"type": "mediumtext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "forretningsadresse_adresse1",
+				"label": "forretningsadresse_adresse1",
+				"type": "mediumtext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "forretningsadresse_adresse2",
+				"label": "forretningsadresse_adresse2",
+				"type": "mediumtext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "forretningsadresse_adresse3",
+				"label": "forretningsadresse_adresse3",
+				"type": "mediumtext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "forretningsadresse_adresse4",
+				"label": "forretningsadresse_adresse4",
+				"type": "mediumtext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "forretningsadresse_kommune",
+				"label": "forretningsadresse_kommune",
+				"type": "mediumtext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "forretningsadresse_kommunenummer",
+				"label": "forretningsadresse_kommunenummer",
+				"type": "mediumtext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "stiftelsesdato",
+				"label": "stiftelsesdato",
+				"type": "mediumtext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "institusjonellSektorkode_kode",
+				"label": "institusjonellSektorkode_kode",
+				"type": "smalltext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "institusjonellSektorkode_navn",
+				"label": "institusjonellSektorkode_navn",
+				"type": "mediumtext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedAt",
+				"label": "Updated At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedBy",
+				"label": "Updated By",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
+				"type": "text",
+				"usage": "BOTH"
+			}
+		],
+		"fieldsSel": [
+			{
+				"editable": false,
+				"visible": true,
+				"name": "organisasjonsnummer",
+				"text": "Organisasjonsnummer",
+				"fieldPos": 1,
+				"columnLabel": "Enhet"
+			},
+			{
+				"editable": false,
+				"visible": true,
+				"name": "navn",
+				"text": "Navn",
+				"fieldPos": 2
+			},
+			{
+				"editable": false,
+				"visible": true,
+				"name": "registreringsdatoEnhetsregisteret",
+				"text": "registreringsdatoEnhetsregisteret",
+				"fieldPos": 3
+			},
+			{
+				"editable": false,
+				"visible": true,
+				"name": "stiftelsesdato",
+				"text": "stiftelsesdato",
+				"fieldPos": 4
+			},
+			{
+				"editable": false,
+				"visible": true,
+				"name": "forretningsadresse_adresse1",
+				"text": "Adresse 1",
+				"fieldPos": 5,
+				"columnLabel": "Adresse"
+			},
+			{
+				"editable": false,
+				"visible": true,
+				"name": "forretningsadresse_adresse2",
+				"text": "Adresse 2",
+				"fieldPos": 6
+			},
+			{
+				"editable": false,
+				"visible": true,
+				"name": "forretningsadresse_adresse3",
+				"text": "Adresse 3",
+				"fieldPos": 7
+			},
+			{
+				"editable": false,
+				"visible": true,
+				"name": "forretningsadresse_adresse4",
+				"text": "Adresse 4",
+				"fieldPos": 8
+			},
+			{
+				"editable": false,
+				"visible": true,
+				"name": "forretningsadresse_postnummer",
+				"text": "Postnummer",
+				"fieldPos": 9,
+				"columnLabel": "Poststed"
+			},
+			{
+				"editable": false,
+				"visible": true,
+				"name": "forretningsadresse_poststed",
+				"text": "Poststed",
+				"fieldPos": 10
+			},
+			{
+				"editable": false,
+				"visible": true,
+				"name": "forretningsadresse_kommune",
+				"text": "Kommune",
+				"fieldPos": 11,
+				"columnLabel": "Kommune"
+			},
+			{
+				"editable": false,
+				"visible": true,
+				"name": "forretningsadresse_kommunenummer",
+				"text": "Kommunenummer",
+				"fieldPos": 12
+			},
+			{
+				"editable": false,
+				"visible": true,
+				"name": "institusjonellSektorkode_kode",
+				"text": "Kode",
+				"fieldPos": 13,
+				"columnLabel": "Institusjonell Sektor"
+			},
+			{
+				"editable": false,
+				"visible": true,
+				"name": "institusjonellSektorkode_navn",
+				"text": "Navn",
+				"fieldPos": 14
+			},
+			{
+				"editable": false,
+				"visible": true,
+				"name": "organisasjonsform_kode",
+				"text": "Kode",
+				"fieldPos": 15,
+				"columnLabel": "Organisasjonsform"
+			},
+			{
+				"editable": false,
+				"visible": true,
+				"name": "organisasjonsform_navn",
+				"text": "Navn",
+				"fieldPos": 16
+			},
+			{
+				"editable": false,
+				"visible": true,
+				"name": "naeringskode1_kode",
+				"text": "Kode",
+				"fieldPos": 17,
+				"columnLabel": "Næringskode"
+			},
+			{
+				"editable": false,
+				"visible": true,
+				"name": "naeringskode1_navn",
+				"text": "Navn",
+				"fieldPos": 18
+			},
+			{
+				"editable": false,
+				"visible": true,
+				"name": "updatedAt",
+				"text": "Endret Dato",
+				"fieldPos": 19,
+				"columnLabel": "Endringer",
+				"type": "DatePicker"
+			},
+			{
+				"editable": false,
+				"visible": true,
+				"name": "updatedBy",
+				"text": "Endret Av",
+				"fieldPos": 20
+			}
+		],
+		"fieldsRun": [
+			{
+				"name": "organisasjonsnummer",
+				"text": "Organisasjonsnummer",
+				"fieldPos": 21
+			}
+		],
+		"defaultVariant": {
+			"id": "12242f0c-2900-4809-f3eb-774281e3de33",
+			"colOrder": "key_a_to_z",
+			"rowOrder": "key_a_to_z",
+			"row": [],
+			"column": [],
+			"val": [],
+			"inclusions": {},
+			"exclusions": {}
+		}
+	},
+	"name": "event_organisation_detail",
+	"description": "",
+	"group": "",
+	"type": "C",
+	"connectorid": "c484a1b7-42f1-4a4a-a620-6df680720366",
+	"scriptSel": null,
+	"scriptRun": null,
+	"tableid": null,
+	"ver": "22.6.12.1654",
+	"disabled": false,
+	"appType": "A",
+	"application": "planet9_adaptive_edit",
+	"package": "3f97e980-7613-4613-b374-7ad2f7f76664",
+	"roles": [],
+	"scriptSelObj": null,
+	"scriptRunObj": null,
+	"tableObj": null
+}

@@ -1,0 +1,222 @@
+{
+	"id": "5dae2aea-1f9a-4383-8d8a-85949518dcd3",
+	"createdAt": "2022-06-12T13:05:31.000Z",
+	"createdBy": "ole-andre.haugen@neptune-software.com",
+	"settings": {
+		"properties": {
+			"report": {
+				"paginationRows": "1000",
+				"updateTime": "1"
+			},
+			"form": {
+				"enableCompact": false,
+				"showFilter": false
+			},
+			"table": {
+				"chartHeight": 250,
+				"chartType": "bar",
+				"legendEnable": true,
+				"legendAlign": "center",
+				"legendVerticalAlign": "bottom",
+				"legendLayout": "horizontal",
+				"xAxisTitleEnable": true,
+				"yAxisTitleEnable": true
+			}
+		},
+		"fieldCatalog": [
+			{
+				"name": "antallAnsatte",
+				"label": "antallAnsatte",
+				"type": "integer",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "forretningsadresse_adresse1",
+				"label": "forretningsadresse_adresse1",
+				"type": "mediumtext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "forretningsadresse_adresse2",
+				"label": "forretningsadresse_adresse2",
+				"type": "mediumtext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "forretningsadresse_adresse3",
+				"label": "forretningsadresse_adresse3",
+				"type": "mediumtext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "forretningsadresse_adresse4",
+				"label": "forretningsadresse_adresse4",
+				"type": "mediumtext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "forretningsadresse_kommune",
+				"label": "forretningsadresse_kommune",
+				"type": "mediumtext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "forretningsadresse_kommunenummer",
+				"label": "forretningsadresse_kommunenummer",
+				"type": "mediumtext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "forretningsadresse_land",
+				"label": "forretningsadresse_land",
+				"type": "mediumtext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "forretningsadresse_landkode",
+				"label": "forretningsadresse_landkode",
+				"type": "smalltext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "forretningsadresse_postnummer",
+				"label": "forretningsadresse_postnummer",
+				"type": "mediumtext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "forretningsadresse_poststed",
+				"label": "forretningsadresse_poststed",
+				"type": "mediumtext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "institusjonellSektorkode_kode",
+				"label": "institusjonellSektorkode_kode",
+				"type": "smalltext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "institusjonellSektorkode_navn",
+				"label": "institusjonellSektorkode_navn",
+				"type": "mediumtext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "naeringskode1_kode",
+				"label": "naeringskode1_kode",
+				"type": "smalltext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "naeringskode1_navn",
+				"label": "naeringskode1_navn",
+				"type": "mediumtext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "navn",
+				"label": "Navn",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "organisasjonsform_kode",
+				"label": "organisasjonsform_kode",
+				"type": "smalltext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "organisasjonsform_navn",
+				"label": "organisasjonsform_navn",
+				"type": "mediumtext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "organisasjonsnummer",
+				"label": "Organisasjonsnummer",
+				"type": "mediumtext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "registreringsdatoEnhetsregisteret",
+				"label": "registreringsdatoEnhetsregisteret",
+				"type": "mediumtext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "registrertIMvaregisteret",
+				"label": "registrertIMvaregisteret",
+				"type": "boolean",
+				"usage": "BOTH"
+			},
+			{
+				"name": "stiftelsesdato",
+				"label": "stiftelsesdato",
+				"type": "mediumtext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedAt",
+				"label": "Updated At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedBy",
+				"label": "Updated By",
+				"type": "text",
+				"usage": "BOTH"
+			}
+		],
+		"fieldsSel": [],
+		"fieldsRun": [
+			{
+				"visible": true,
+				"name": "forretningsadresse_poststed",
+				"text": "Poststed",
+				"fieldPos": 1,
+				"type": "data"
+			}
+		],
+		"defaultVariant": {
+			"id": "ad653a0a-c1ab-4e3b-f72b-53296c0c9e08",
+			"colOrder": "key_a_to_z",
+			"rowOrder": "key_a_to_z",
+			"row": [],
+			"column": [],
+			"val": [],
+			"inclusions": {},
+			"exclusions": {}
+		}
+	},
+	"name": "events_organisation_tile",
+	"description": "",
+	"group": "",
+	"type": "C",
+	"connectorid": "c484a1b7-42f1-4a4a-a620-6df680720366",
+	"scriptSel": null,
+	"scriptRun": null,
+	"tableid": null,
+	"ver": "22.6.12.157",
+	"disabled": false,
+	"appType": "A",
+	"application": "planet9_adaptive_tile_chart",
+	"package": "3f97e980-7613-4613-b374-7ad2f7f76664",
+	"roles": [],
+	"scriptSelObj": null,
+	"scriptRunObj": null,
+	"tableObj": null
+}

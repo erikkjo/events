@@ -1,0 +1,17 @@
+{
+	"id": "c03ba4c7-570f-4e1d-943a-892b93b0962d",
+	"createdAt": "2022-06-12T14:12:33.000Z",
+	"createdBy": "ole-andre.haugen@neptune-software.com",
+	"settings": {
+		"tableid": "c332b331-e890-428f-853e-54aac9989adf",
+		"hasDocumentation": false
+	},
+	"documentation": {},
+	"name": "Event: Activity Category",
+	"description": "Event: Activity Category",
+	"group": null,
+	"type": "T",
+	"ver": "22.6.12.1612",
+	"disabled": false,
+	"package": "3f97e980-7613-4613-b374-7ad2f7f76664"
+}

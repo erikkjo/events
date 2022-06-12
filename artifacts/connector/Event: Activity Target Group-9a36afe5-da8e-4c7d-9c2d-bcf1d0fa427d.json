@@ -1,0 +1,17 @@
+{
+	"id": "9a36afe5-da8e-4c7d-9c2d-bcf1d0fa427d",
+	"createdAt": "2022-06-12T14:12:17.000Z",
+	"createdBy": "ole-andre.haugen@neptune-software.com",
+	"settings": {
+		"tableid": "b9e039cc-079d-4488-baff-2871ac06a02a",
+		"hasDocumentation": false
+	},
+	"documentation": {},
+	"name": "Event: Activity Target Group",
+	"description": "Event: Activity Target Group",
+	"group": null,
+	"type": "T",
+	"ver": "22.6.12.1612",
+	"disabled": false,
+	"package": "3f97e980-7613-4613-b374-7ad2f7f76664"
+}

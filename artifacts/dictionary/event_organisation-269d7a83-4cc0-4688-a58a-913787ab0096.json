@@ -1,0 +1,150 @@
+{
+	"id": "269d7a83-4cc0-4688-a58a-913787ab0096",
+	"createdAt": "2022-06-12T11:15:06.000Z",
+	"createdBy": "ole-andre.haugen@neptune-software.com",
+	"fields": [
+		{
+			"id": "bfce492e-d0ec-499f-a96a-ae0dce3bc23a",
+			"fieldName": "organisasjonsnummer",
+			"fieldType": "mediumtext",
+			"isUnique": true,
+			"description": "Organisasjonsnummer"
+		},
+		{
+			"id": "95691b9f-23d4-45df-a97e-c43cfa9d257f",
+			"fieldName": "navn",
+			"fieldType": "text",
+			"isNullable": true,
+			"description": "Navn"
+		},
+		{
+			"id": "e4787501-b993-49f5-bda9-6e2e81239cdd",
+			"fieldName": "organisasjonsform_kode",
+			"fieldType": "smalltext",
+			"isNullable": true
+		},
+		{
+			"id": "d3b8b09d-c906-4747-bacd-ddf417613f54",
+			"fieldName": "organisasjonsform_navn",
+			"fieldType": "mediumtext",
+			"isNullable": true
+		},
+		{
+			"id": "c4174ba4-e8c4-4dd3-9251-ae98274630e5",
+			"fieldName": "registreringsdatoEnhetsregisteret",
+			"fieldType": "mediumtext",
+			"isNullable": true
+		},
+		{
+			"id": "5671bd69-0c90-43d0-a0bf-17b2f25c1876",
+			"fieldName": "registrertIMvaregisteret",
+			"fieldType": "boolean",
+			"isNullable": true
+		},
+		{
+			"id": "57fe3064-82b5-4023-c7ad-d29da5d96507",
+			"fieldName": "naeringskode1_kode",
+			"fieldType": "smalltext",
+			"isNullable": true
+		},
+		{
+			"id": "f0549691-5540-4ca4-c9a8-bc8a60f440a1",
+			"fieldName": "naeringskode1_navn",
+			"fieldType": "mediumtext",
+			"isNullable": true
+		},
+		{
+			"id": "bdb8ba02-3991-40f5-b602-3bc2fc1f1479",
+			"fieldName": "antallAnsatte",
+			"fieldType": "integer",
+			"isNullable": true
+		},
+		{
+			"id": "7058ebca-79fb-41ad-da13-e79e71d0f172",
+			"fieldName": "forretningsadresse_land",
+			"fieldType": "mediumtext",
+			"isNullable": true
+		},
+		{
+			"id": "53a8ceea-1399-4d5d-9ffb-cb50cec537bf",
+			"fieldName": "forretningsadresse_landkode",
+			"fieldType": "smalltext",
+			"isNullable": true
+		},
+		{
+			"id": "80105b60-8d21-48b0-fe66-a6d266c06006",
+			"fieldName": "forretningsadresse_postnummer",
+			"fieldType": "mediumtext",
+			"isNullable": true
+		},
+		{
+			"id": "f94ff212-6e0c-4a5c-e356-1fe6fc316247",
+			"fieldName": "forretningsadresse_poststed",
+			"fieldType": "mediumtext",
+			"isNullable": true
+		},
+		{
+			"id": "2283418c-d386-42c4-b623-1ade31af91bb",
+			"fieldName": "forretningsadresse_adresse1",
+			"fieldType": "mediumtext",
+			"isNullable": true
+		},
+		{
+			"id": "0ae67267-e836-4317-d979-51b87a17f60f",
+			"fieldName": "forretningsadresse_adresse2",
+			"fieldType": "mediumtext",
+			"isNullable": true
+		},
+		{
+			"id": "0ed6d1c0-6a9e-48ea-c243-f1167035b040",
+			"fieldName": "forretningsadresse_adresse3",
+			"fieldType": "mediumtext",
+			"isNullable": true
+		},
+		{
+			"id": "a987abe0-c659-435c-8f8d-2147ed3fc42f",
+			"fieldName": "forretningsadresse_adresse4",
+			"fieldType": "mediumtext",
+			"isNullable": true
+		},
+		{
+			"id": "2287a0e9-9848-47d0-853b-68e63faa9d5d",
+			"fieldName": "forretningsadresse_kommune",
+			"fieldType": "mediumtext",
+			"isNullable": true
+		},
+		{
+			"id": "904012b9-afbd-4808-bb35-cf762d49abac",
+			"fieldName": "forretningsadresse_kommunenummer",
+			"fieldType": "mediumtext",
+			"isNullable": true
+		},
+		{
+			"id": "1d342030-5586-40de-c6e3-03074cdebdae",
+			"fieldName": "stiftelsesdato",
+			"fieldType": "mediumtext",
+			"isNullable": true
+		},
+		{
+			"id": "b170bcd1-3781-4f89-de36-b4189d8e4a75",
+			"fieldName": "institusjonellSektorkode_kode",
+			"fieldType": "smalltext",
+			"isNullable": true
+		},
+		{
+			"id": "d2f7d4c6-d9ae-45d2-a172-d346ae1cb957",
+			"fieldName": "institusjonellSektorkode_navn",
+			"fieldType": "mediumtext",
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "event_organisation",
+	"description": "Event: Organisation",
+	"ver": "22.6.12.1315",
+	"enableAudit": false,
+	"package": "3f97e980-7613-4613-b374-7ad2f7f76664",
+	"rolesRead": [],
+	"rolesWrite": []
+}

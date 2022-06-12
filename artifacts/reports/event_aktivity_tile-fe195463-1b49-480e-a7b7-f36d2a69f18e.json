@@ -1,0 +1,164 @@
+{
+	"id": "fe195463-1b49-480e-a7b7-f36d2a69f18e",
+	"createdAt": "2022-06-12T14:45:09.000Z",
+	"createdBy": "ole-andre.haugen@neptune-software.com",
+	"settings": {
+		"properties": {
+			"report": {
+				"paginationRows": 10,
+				"updateTime": 0
+			},
+			"form": {
+				"enableCompact": false,
+				"showFilter": false
+			},
+			"table": {
+				"chartHeight": 250,
+				"chartType": "pie",
+				"legendEnable": true,
+				"legendAlign": "center",
+				"legendVerticalAlign": "bottom",
+				"legendLayout": "horizontal",
+				"xAxisTitleEnable": true,
+				"yAxisTitleEnable": true
+			}
+		},
+		"fieldCatalog": [
+			{
+				"name": "category",
+				"label": "category",
+				"type": "smalltext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "description",
+				"label": "description",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "enddate",
+				"label": "enddate",
+				"type": "timestamptz",
+				"usage": "BOTH"
+			},
+			{
+				"name": "image",
+				"label": "image",
+				"type": "mediumtext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "isFree",
+				"label": "isFree",
+				"type": "boolean",
+				"usage": "BOTH"
+			},
+			{
+				"name": "organisasjonsnummer",
+				"label": "organisasjonsnummer",
+				"type": "mediumtext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "startdate",
+				"label": "startdate",
+				"type": "timestamptz",
+				"usage": "BOTH"
+			},
+			{
+				"name": "targetgroup",
+				"label": "targetgroup",
+				"type": "smalltext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "title",
+				"label": "title",
+				"type": "mediumtext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "type",
+				"label": "type",
+				"type": "smalltext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedAt",
+				"label": "Updated At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedBy",
+				"label": "Updated By",
+				"type": "text",
+				"usage": "BOTH"
+			}
+		],
+		"fieldsSel": [],
+		"fieldsRun": [
+			{
+				"visible": true,
+				"name": "organisasjonsnummer",
+				"text": "organisasjonsnummer",
+				"fieldPos": 1,
+				"valueType": "Lookup",
+				"valueLookup": {
+					"table": "event_organisation",
+					"textField": "navn",
+					"keyField": [
+						{
+							"fieldName": "organisasjonsnummer",
+							"key": "organisasjonsnummer",
+							"value": ""
+						}
+					],
+					"hideKey": true,
+					"butType": "Accept"
+				},
+				"type": "category"
+			}
+		],
+		"defaultVariant": {
+			"id": "12cc3f18-4465-4bb4-90aa-830e9f0602b6",
+			"colOrder": "key_a_to_z",
+			"rowOrder": "key_a_to_z",
+			"row": [],
+			"column": [],
+			"val": [],
+			"inclusions": {},
+			"exclusions": {}
+		}
+	},
+	"name": "event_aktivity_tile",
+	"description": "",
+	"group": "",
+	"type": "C",
+	"connectorid": "afff15fb-4d2e-4040-b3e7-06f46ee56543",
+	"scriptSel": null,
+	"scriptRun": null,
+	"tableid": null,
+	"ver": "22.6.12.1645",
+	"disabled": false,
+	"appType": "A",
+	"application": "planet9_adaptive_tile_chart",
+	"package": "3f97e980-7613-4613-b374-7ad2f7f76664",
+	"roles": [],
+	"scriptSelObj": null,
+	"scriptRunObj": null,
+	"tableObj": null
+}
