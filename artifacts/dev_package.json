@@ -35,14 +35,16 @@
 		],
 		"readme": [
 			"==OBJECT STRING==",
-			"Events Solution\r",
+			"# events\r",
+			"Planet9 Events Solution\r",
 			"\r",
+			"Update\r",
 			""
 		]
 	},
 	"name": "com.skyetec.events",
 	"description": "Event Solution",
-	"ver": "22.6.13.11",
+	"ver": "22.6.13.13",
 	"enableCICD": true,
 	"apps": [
 		{
