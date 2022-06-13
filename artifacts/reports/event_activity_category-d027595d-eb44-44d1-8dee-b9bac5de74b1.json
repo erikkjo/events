@@ -7,7 +7,7 @@
 			"report": {
 				"showIcon": true,
 				"iconButtonClose": "",
-				"textButtonClose": "Close",
+				"textButtonClose": "Lukk",
 				"typeButtonClose": "Transparent",
 				"iconButtonCreate": "",
 				"textButtonCreate": "Opprett",
@@ -26,7 +26,7 @@
 				"typeButtonRun": "Transparent",
 				"enableRun": true,
 				"enableCreate": true,
-				"enableClose": false,
+				"enableClose": true,
 				"enableDelete": false,
 				"enableExport": false,
 				"enableImport": false,
@@ -37,8 +37,8 @@
 				"autoRunFocus": true,
 				"searchLabel": "Search",
 				"searchPlaceholder": "",
-				"title": "Activity",
-				"subTitle": "Category",
+				"title": "Kategori",
+				"subTitle": "Aktivitet",
 				"avatarIcon": "sap-icon://fa-solid/layer-group"
 			},
 			"form": {
@@ -144,7 +144,7 @@
 	"scriptSel": null,
 	"scriptRun": null,
 	"tableid": null,
-	"ver": "22.6.12.1621",
+	"ver": "22.6.13.138",
 	"disabled": false,
 	"appType": "A",
 	"application": "planet9_adaptive_list",

@@ -10,7 +10,7 @@
 	],
 	"tilegroupsOrder": [],
 	"configMessage": {},
-	"title": "Masterdata",
+	"title": "MASTERDATA",
 	"subTitle": null,
 	"description": null,
 	"titleAlignment": null,
@@ -29,7 +29,7 @@
 	"enableShadeCalc": false,
 	"numTiles": null,
 	"enableMessage": false,
-	"ver": "22.6.12.1623",
+	"ver": "22.6.13.127",
 	"headColor": null,
 	"headTxtClr": null,
 	"subheadTxtClr": null,
@@ -66,20 +66,20 @@
 		{
 			"id": "9ce71a2f-f207-4618-a6c3-653e28b32e3a",
 			"name": "Event: Aktivitet Type",
-			"title": "Aktivitet",
-			"ver": "22.6.12.1621"
+			"title": "Type",
+			"ver": "22.6.13.132"
 		},
 		{
 			"id": "c9a10ea3-a248-40da-8ece-fb870a015771",
 			"name": "Event: Aktivitet Target Group",
-			"title": "Aktivitet",
-			"ver": "22.6.12.1622"
+			"title": "Målgruppe",
+			"ver": "22.6.13.133"
 		},
 		{
 			"id": "d8bfb639-91da-4760-976a-e16972dbf7a9",
 			"name": "Event: Aktivitet Category",
-			"title": "Aktivitet",
-			"ver": "22.6.12.1622"
+			"title": "Kategori",
+			"ver": "22.6.13.132"
 		}
 	]
 }

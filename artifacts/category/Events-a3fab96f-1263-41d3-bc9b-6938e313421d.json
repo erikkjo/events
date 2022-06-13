@@ -13,8 +13,8 @@
 	"configMessage": {
 		"type": "None"
 	},
-	"title": "Events Admin",
-	"subTitle": null,
+	"title": "AKTIVITETS OVERSIKT",
+	"subTitle": "Løsning for kommune Norge",
 	"description": null,
 	"titleAlignment": null,
 	"enableFullScreen": null,
@@ -32,7 +32,7 @@
 	"enableShadeCalc": false,
 	"numTiles": null,
 	"enableMessage": false,
-	"ver": "22.6.12.1643",
+	"ver": "22.6.13.132",
 	"headColor": null,
 	"headTxtClr": null,
 	"subheadTxtClr": null,
@@ -70,13 +70,13 @@
 			"id": "4238e7d3-2572-4910-89ee-8b7645ea8e02",
 			"name": "Event: Aktiviteter",
 			"title": "Aktiviteter",
-			"ver": "22.6.12.1646"
+			"ver": "22.6.13.134"
 		},
 		{
 			"id": "c219c467-5d7b-40f6-87bd-32b69b0c84b8",
 			"name": "Event: Enheter",
 			"title": "Enheter",
-			"ver": "22.6.12.1619"
+			"ver": "22.6.13.133"
 		}
 	]
 }

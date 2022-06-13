@@ -10,8 +10,8 @@
 			"idTile": ""
 		}
 	},
-	"title": "Aktivitet",
-	"subTitle": "Type",
+	"title": "Type",
+	"subTitle": "Aktivitet",
 	"description": null,
 	"categoryID": null,
 	"sort": null,
@@ -61,7 +61,7 @@
 	"helpText": null,
 	"helpEnabled": false,
 	"openClickTile": false,
-	"ver": "22.6.12.1621",
+	"ver": "22.6.13.132",
 	"actionWebApp": "",
 	"name": "Event: Aktivitet Type",
 	"cardWidth": "",

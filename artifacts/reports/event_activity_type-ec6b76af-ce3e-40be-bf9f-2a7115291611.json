@@ -10,7 +10,7 @@
 				"textButtonClose": "Close",
 				"typeButtonClose": "Transparent",
 				"iconButtonCreate": "",
-				"textButtonCreate": "Opprett",
+				"textButtonCreate": "Lukk",
 				"typeButtonCreate": "Emphasized",
 				"iconButtonExport": "sap-icon://excel-attachment",
 				"textButtonExport": "",
@@ -37,8 +37,8 @@
 				"autoRunFocus": true,
 				"searchLabel": "Search",
 				"searchPlaceholder": "",
-				"title": "Activity",
-				"subTitle": "Type",
+				"title": "Type",
+				"subTitle": "Aktivitet",
 				"avatarIcon": "sap-icon://tnt/Value type"
 			},
 			"form": {
@@ -144,7 +144,7 @@
 	"scriptSel": null,
 	"scriptRun": null,
 	"tableid": null,
-	"ver": "22.6.12.1619",
+	"ver": "22.6.13.139",
 	"disabled": false,
 	"appType": "A",
 	"application": "planet9_adaptive_list",

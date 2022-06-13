@@ -15,13 +15,13 @@
 			"active": true,
 			"style": [
 				"==OBJECT STRING==",
-				"<style>.nepTopMenu { border-bottom: 1px solid #e5e5e5 !important; }.nepPage { background: rgba(0, 0, 0, 0.25); }",
+				"<style>.nepTopMenu { border-bottom: 1px solid #e5e5e5 !important; }.nepPage { background: rgba(0, 0, 0, 0.01); }",
 				"        .nepShell {",
 				"            background-image: url('https://www.porsgrunn.kommune.no/media/soqfkic5/pk-1-2022.jpg?width=1920&height=550&rnd=132986467304430000') !important;",
 				"            background-repeat: no-repeat;",
 				"            background-size: cover;",
 				"        }",
-				"    .nepCatTitle.sapMTitle { color: black; }",
+				"    .nepCatTitle.sapMTitle { color: #1d2d3e; }",
 				"            .nepLayout .nepLaunchpadContentMenu { border-right: 1px solid #e5e5e5; }",
 				"            .nepLayout .nepLaunchpadMenuOverflow { border-right: 1px solid #e5e5e5; }",
 				"            .nepLayout .nepLaunchpadMenuSettings { border-left: 1px solid #e5e5e5; }",
@@ -30,8 +30,8 @@
 			],
 			"shellContentWidth": "XLarge",
 			"pageBackgroundImage": "https://www.porsgrunn.kommune.no/media/soqfkic5/pk-1-2022.jpg?width=1920&height=550&rnd=132986467304430000",
-			"pageBackgroundColor": "rgba(0, 0, 0, 0.25)",
-			"textTitleColor": "black",
+			"pageBackgroundColor": "rgba(0, 0, 0, 0.01)",
+			"textTitleColor": "#1d2d3e",
 			"topBorderColor": "#e5e5e5",
 			"menuBorderColor": "#e5e5e5"
 		}
@@ -76,7 +76,7 @@
 	"searchEnableShadeCalc": null,
 	"usedEnableShadeCalc": null,
 	"enableTrace": false,
-	"ver": "22.6.12.1625",
+	"ver": "22.6.13.132",
 	"pwa_enable": false,
 	"pwa_customImageIos": null,
 	"pwa_customImageAndroidOld": null,
@@ -91,8 +91,8 @@
 		{
 			"id": "a3fab96f-1263-41d3-bc9b-6938e313421d",
 			"name": "Events",
-			"title": "Events Admin",
-			"ver": "22.6.12.1643"
+			"title": "AKTIVITETS OVERSIKT",
+			"ver": "22.6.13.132"
 		}
 	]
 }
