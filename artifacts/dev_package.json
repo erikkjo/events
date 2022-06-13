@@ -52,6 +52,12 @@
 			"application": "event_organisation_edit",
 			"title": "",
 			"description": ""
+		},
+		{
+			"id": "5e4aeff1-1abb-4bf2-baf6-7a1fadef169a",
+			"application": "events",
+			"title": "PORSGRUNN KOMMUNE",
+			"description": "PORSGRUNN KOMMUNE"
 		}
 	],
 	"api": [
