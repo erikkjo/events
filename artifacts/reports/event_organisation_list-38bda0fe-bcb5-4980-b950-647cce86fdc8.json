@@ -273,9 +273,18 @@
 				"enableFilter": true,
 				"enableSort": true,
 				"visible": true,
-				"name": "forretningsadresse_kommune",
-				"text": "Kommune",
-				"fieldPos": 5
+				"name": "forretningsadresse_postnummer",
+				"text": "Postnummer",
+				"fieldPos": 5,
+				"width": "100px"
+			},
+			{
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": true,
+				"name": "forretningsadresse_poststed",
+				"text": "Poststed",
+				"fieldPos": 6
 			},
 			{
 				"enableFilter": true,
@@ -283,7 +292,7 @@
 				"visible": true,
 				"name": "stiftelsesdato",
 				"text": "Stiftelses Dato",
-				"fieldPos": 6
+				"fieldPos": 7
 			}
 		],
 		"defaultVariant": {
@@ -305,7 +314,7 @@
 	"scriptSel": null,
 	"scriptRun": null,
 	"tableid": null,
-	"ver": "22.6.13.142",
+	"ver": "22.6.13.180",
 	"disabled": false,
 	"appType": "A",
 	"application": "planet9_adaptive_list",

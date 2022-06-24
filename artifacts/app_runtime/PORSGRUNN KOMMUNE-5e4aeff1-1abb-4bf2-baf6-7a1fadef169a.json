@@ -82,332 +82,6 @@
 							],
 							"data": [
 								{
-									"fieldNo": "c0dd2988-2734-4866-c829-9835e2b7795f",
-									"fieldName": "panLanguage",
-									"fieldParent": "e5327b39-c40a-440d-c2f2-facd71b30899",
-									"fieldType": "sap.m.Panel",
-									"script": "",
-									"customComponent": false,
-									"request": [],
-									"response": [],
-									"attributes": [
-										{
-											"attribute": "styleClass",
-											"grouping": "Properties",
-											"value": "langBar",
-											"script": "",
-											"translation": []
-										},
-										{
-											"attribute": "height",
-											"grouping": "Properties",
-											"value": "100%",
-											"script": "",
-											"translation": []
-										},
-										{
-											"attribute": "backgroundDesign",
-											"grouping": "Properties",
-											"value": "Transparent",
-											"script": "",
-											"translation": []
-										}
-									],
-									"data": [
-										{
-											"fieldNo": "89356fe8-0fb9-4185-b2de-600a6a61b8dc",
-											"fieldName": "toolLanguages",
-											"fieldParent": "c0dd2988-2734-4866-c829-9835e2b7795f",
-											"fieldType": "sap.m.OverflowToolbar",
-											"script": "",
-											"customComponent": false,
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "height",
-													"grouping": "Properties",
-													"value": "100%",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "design",
-													"grouping": "Properties",
-													"value": "Transparent",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "position",
-													"grouping": "Parent",
-													"value": "HeaderToolbar",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": [
-												{
-													"fieldNo": "a6ae452e-9560-4cd3-a19d-136902122084",
-													"fieldName": "toolLanguagesSpacer",
-													"fieldParent": "89356fe8-0fb9-4185-b2de-600a6a61b8dc",
-													"fieldType": "sap.m.ToolbarSpacer",
-													"script": "",
-													"customComponent": false,
-													"request": [],
-													"response": [],
-													"attributes": [],
-													"data": []
-												},
-												{
-													"fieldNo": "7b207dca-77ad-480a-91b7-7ef89846575d",
-													"fieldName": "navLanguageLogin",
-													"fieldParent": "89356fe8-0fb9-4185-b2de-600a6a61b8dc",
-													"fieldType": "sap.m.Button",
-													"script": "",
-													"customComponent": false,
-													"request": [],
-													"response": [],
-													"attributes": [
-														{
-															"attribute": "text",
-															"grouping": "Properties",
-															"value": "Logg Inn",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "press",
-															"grouping": "Events",
-															"value": "location.href = \"/launchpad/Events\"",
-															"script": "location.href = \"/launchpad/Events\"",
-															"language": "javascript",
-															"translation": []
-														}
-													],
-													"data": []
-												},
-												{
-													"fieldNo": "6479a4c7-cf08-4fa7-912d-c456bece62dc",
-													"fieldName": "toolLanguagesAR",
-													"fieldParent": "89356fe8-0fb9-4185-b2de-600a6a61b8dc",
-													"fieldType": "sap.m.Image",
-													"script": "",
-													"customComponent": false,
-													"request": [],
-													"response": [],
-													"attributes": [
-														{
-															"attribute": "src",
-															"grouping": "Properties",
-															"value": "/media/root/events/ar.png",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "height",
-															"grouping": "Properties",
-															"value": "24px",
-															"script": "",
-															"translation": []
-														}
-													],
-													"data": []
-												},
-												{
-													"fieldNo": "565d80d1-18e5-4502-d047-0a3d8f733333",
-													"fieldName": "toolLanguagesEN",
-													"fieldParent": "89356fe8-0fb9-4185-b2de-600a6a61b8dc",
-													"fieldType": "sap.m.Image",
-													"script": "",
-													"customComponent": false,
-													"request": [],
-													"response": [],
-													"attributes": [
-														{
-															"attribute": "src",
-															"grouping": "Properties",
-															"value": "/media/root/events/en.png",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "height",
-															"grouping": "Properties",
-															"value": "24px",
-															"script": "",
-															"translation": []
-														}
-													],
-													"data": []
-												},
-												{
-													"fieldNo": "ae560337-d709-4b64-8ae3-01c60047b699",
-													"fieldName": "toolLanguagesNO",
-													"fieldParent": "89356fe8-0fb9-4185-b2de-600a6a61b8dc",
-													"fieldType": "sap.m.Image",
-													"script": "",
-													"customComponent": false,
-													"request": [],
-													"response": [],
-													"attributes": [
-														{
-															"attribute": "src",
-															"grouping": "Properties",
-															"value": "/media/root/events/no.png",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "height",
-															"grouping": "Properties",
-															"value": "24px",
-															"script": "",
-															"translation": []
-														}
-													],
-													"data": []
-												},
-												{
-													"fieldNo": "2c9b2ee7-75a0-4f73-f15d-57774bc1dfda",
-													"fieldName": "toolLanguagesPL",
-													"fieldParent": "89356fe8-0fb9-4185-b2de-600a6a61b8dc",
-													"fieldType": "sap.m.Image",
-													"script": "",
-													"customComponent": false,
-													"request": [],
-													"response": [],
-													"attributes": [
-														{
-															"attribute": "src",
-															"grouping": "Properties",
-															"value": "/media/root/events/pl.png",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "height",
-															"grouping": "Properties",
-															"value": "24px",
-															"script": "",
-															"translation": []
-														}
-													],
-													"data": []
-												},
-												{
-													"fieldNo": "d2c29dcf-219b-4c37-b23b-f854bd4bac65",
-													"fieldName": "toolLanguagesDE",
-													"fieldParent": "89356fe8-0fb9-4185-b2de-600a6a61b8dc",
-													"fieldType": "sap.m.Image",
-													"script": "",
-													"customComponent": false,
-													"request": [],
-													"response": [],
-													"attributes": [
-														{
-															"attribute": "src",
-															"grouping": "Properties",
-															"value": "/media/root/events/de.png",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "height",
-															"grouping": "Properties",
-															"value": "24px",
-															"script": "",
-															"translation": []
-														}
-													],
-													"data": []
-												},
-												{
-													"fieldNo": "cc584087-43c8-4626-b243-c2fb01e93b88",
-													"fieldName": "toolLanguagesLT",
-													"fieldParent": "89356fe8-0fb9-4185-b2de-600a6a61b8dc",
-													"fieldType": "sap.m.Image",
-													"script": "",
-													"customComponent": false,
-													"request": [],
-													"response": [],
-													"attributes": [
-														{
-															"attribute": "src",
-															"grouping": "Properties",
-															"value": "/media/root/events/lt.png",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "height",
-															"grouping": "Properties",
-															"value": "24px",
-															"script": "",
-															"translation": []
-														}
-													],
-													"data": []
-												},
-												{
-													"fieldNo": "283a8e3f-8d64-4e5e-a6fb-b1ec812c2ed5",
-													"fieldName": "toolLanguagesSO",
-													"fieldParent": "89356fe8-0fb9-4185-b2de-600a6a61b8dc",
-													"fieldType": "sap.m.Image",
-													"script": "",
-													"customComponent": false,
-													"request": [],
-													"response": [],
-													"attributes": [
-														{
-															"attribute": "src",
-															"grouping": "Properties",
-															"value": "/media/root/events/so.png",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "height",
-															"grouping": "Properties",
-															"value": "24px",
-															"script": "",
-															"translation": []
-														}
-													],
-													"data": []
-												},
-												{
-													"fieldNo": "fc25689a-d14e-4b60-9823-3fd66726613d",
-													"fieldName": "toolLanguagesUK",
-													"fieldParent": "89356fe8-0fb9-4185-b2de-600a6a61b8dc",
-													"fieldType": "sap.m.Image",
-													"script": "",
-													"customComponent": false,
-													"request": [],
-													"response": [],
-													"attributes": [
-														{
-															"attribute": "src",
-															"grouping": "Properties",
-															"value": "/media/root/events/uk.png",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "height",
-															"grouping": "Properties",
-															"value": "24px",
-															"script": "",
-															"translation": []
-														}
-													],
-													"data": []
-												}
-											]
-										}
-									]
-								},
-								{
 									"fieldNo": "a16313a4-5275-48ef-9441-bacc7ad8b9bf",
 									"fieldName": "panNavbar",
 									"fieldParent": "e5327b39-c40a-440d-c2f2-facd71b30899",
@@ -468,6 +142,13 @@
 													"attribute": "position",
 													"grouping": "Parent",
 													"value": "HeaderToolbar",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "AriaLabelledBy",
+													"grouping": "Accessibility",
+													"value": "Liste",
 													"script": "",
 													"translation": []
 												}
@@ -557,10 +238,24 @@
 															"translation": []
 														},
 														{
+															"attribute": "styleClass",
+															"grouping": "Properties",
+															"value": "butNav butActive",
+															"script": "",
+															"translation": []
+														},
+														{
 															"attribute": "press",
 															"grouping": "Events",
-															"value": "oNav.to(oPageAct);",
-															"script": "oNav.to(oPageAct);",
+															"value": "Anonymous Function",
+															"script": [
+																"==OBJECT STRING==",
+																"navActivity.addStyleClass(\"butActive\");\r",
+																"navOrg.removeStyleClass(\"butActive\");\r",
+																"oNav.to(oPageAct);\r",
+																""
+															],
+															"language": "javascript",
 															"translation": []
 														}
 													],
@@ -579,15 +274,28 @@
 														{
 															"attribute": "text",
 															"grouping": "Properties",
-															"value": "Forening",
+															"value": "Organisasjoner",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "styleClass",
+															"grouping": "Properties",
+															"value": "butNav",
 															"script": "",
 															"translation": []
 														},
 														{
 															"attribute": "press",
 															"grouping": "Events",
-															"value": "oNav.to(oPageOrg);",
-															"script": "oNav.to(oPageOrg);",
+															"value": "Anonymous Function",
+															"script": [
+																"==OBJECT STRING==",
+																"navOrg.addStyleClass(\"butActive\");\r",
+																"navActivity.removeStyleClass(\"butActive\");\r",
+																"oNav.to(oPageOrg);"
+															],
+															"language": "javascript",
 															"translation": []
 														}
 													],
@@ -616,9 +324,23 @@
 													"response": [],
 													"attributes": [
 														{
+															"attribute": "type",
+															"grouping": "Properties",
+															"value": "Default",
+															"script": "",
+															"translation": []
+														},
+														{
 															"attribute": "text",
 															"grouping": "Properties",
 															"value": "Kontrast",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "styleClass",
+															"grouping": "Properties",
+															"value": "butNav",
 															"script": "",
 															"translation": []
 														},
@@ -758,22 +480,15 @@
 													],
 													"data": [
 														{
-															"fieldNo": "6af6bb08-2b9e-4f6c-fab8-ffa7eeed3e50",
-															"fieldName": "oTitle1",
+															"fieldNo": "5f572a01-5dd9-4863-af62-cda0bed1aec6",
+															"fieldName": "titleAct",
 															"fieldParent": "48cc58e2-2062-48e4-ead9-d130e332f5bb",
-															"fieldType": "sap.m.Title",
+															"fieldType": "nep.bootstrap.Text",
 															"script": "",
 															"customComponent": false,
 															"request": [],
 															"response": [],
 															"attributes": [
-																{
-																	"attribute": "titleStyle",
-																	"grouping": "Properties",
-																	"value": "H4",
-																	"script": "",
-																	"translation": []
-																},
 																{
 																	"attribute": "text",
 																	"grouping": "Properties",
@@ -782,9 +497,16 @@
 																	"translation": []
 																},
 																{
-																	"attribute": "styleClassMargin",
+																	"attribute": "margin",
 																	"grouping": "Properties",
-																	"value": "sapUiSmallMarginBegin",
+																	"value": "MarginStart3",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "type",
+																	"grouping": "Properties",
+																	"value": "Heading2",
 																	"script": "",
 																	"translation": []
 																}
@@ -863,6 +585,13 @@
 																			"translation": []
 																		},
 																		{
+																			"attribute": "styleClass",
+																			"grouping": "Properties",
+																			"value": "lblHeading",
+																			"script": "",
+																			"translation": []
+																		},
+																		{
 																			"attribute": "design",
 																			"grouping": "Properties",
 																			"value": "Bold",
@@ -913,6 +642,13 @@
 																			"attribute": "text",
 																			"grouping": "Properties",
 																			"value": "Kategori",
+																			"script": "",
+																			"translation": []
+																		},
+																		{
+																			"attribute": "styleClass",
+																			"grouping": "Properties",
+																			"value": "lblHeading",
 																			"script": "",
 																			"translation": []
 																		},
@@ -994,6 +730,13 @@
 																			"translation": []
 																		},
 																		{
+																			"attribute": "styleClass",
+																			"grouping": "Properties",
+																			"value": "lblHeading",
+																			"script": "",
+																			"translation": []
+																		},
+																		{
 																			"attribute": "design",
 																			"grouping": "Properties",
 																			"value": "Bold",
@@ -1067,6 +810,13 @@
 																			"attribute": "text",
 																			"grouping": "Properties",
 																			"value": "Målgruppe",
+																			"script": "",
+																			"translation": []
+																		},
+																		{
+																			"attribute": "styleClass",
+																			"grouping": "Properties",
+																			"value": "lblHeading",
 																			"script": "",
 																			"translation": []
 																		},
@@ -1750,10 +1500,10 @@
 																					"data": []
 																				},
 																				{
-																					"fieldNo": "99c6c66e-0e8a-4e7a-f586-eeca1b885239",
-																					"fieldName": "calActivitiesDayView",
+																					"fieldNo": "5629a78a-1fa4-4972-da5b-f8d9c96881d9",
+																					"fieldName": "calActivitiesMonthView",
 																					"fieldParent": "5d394d21-cc61-41ee-b385-e49d134b1994",
-																					"fieldType": "sap.m.SinglePlanningCalendarDayView",
+																					"fieldType": "sap.m.SinglePlanningCalendarMonthView",
 																					"script": "",
 																					"customComponent": false,
 																					"request": [],
@@ -1762,14 +1512,14 @@
 																						{
 																							"attribute": "key",
 																							"grouping": "Properties",
-																							"value": "day",
+																							"value": "month",
 																							"script": "",
 																							"translation": []
 																						},
 																						{
 																							"attribute": "title",
 																							"grouping": "Properties",
-																							"value": "Dag",
+																							"value": "Måned",
 																							"script": "",
 																							"translation": []
 																						}
@@ -1804,10 +1554,10 @@
 																					"data": []
 																				},
 																				{
-																					"fieldNo": "5629a78a-1fa4-4972-da5b-f8d9c96881d9",
-																					"fieldName": "calActivitiesMonthView",
+																					"fieldNo": "99c6c66e-0e8a-4e7a-f586-eeca1b885239",
+																					"fieldName": "calActivitiesDayView",
 																					"fieldParent": "5d394d21-cc61-41ee-b385-e49d134b1994",
-																					"fieldType": "sap.m.SinglePlanningCalendarMonthView",
+																					"fieldType": "sap.m.SinglePlanningCalendarDayView",
 																					"script": "",
 																					"customComponent": false,
 																					"request": [],
@@ -1816,14 +1566,14 @@
 																						{
 																							"attribute": "key",
 																							"grouping": "Properties",
-																							"value": "month",
+																							"value": "day",
 																							"script": "",
 																							"translation": []
 																						},
 																						{
 																							"attribute": "title",
 																							"grouping": "Properties",
-																							"value": "Måned",
+																							"value": "Dag",
 																							"script": "",
 																							"translation": []
 																						}
@@ -2893,22 +2643,15 @@
 													],
 													"data": [
 														{
-															"fieldNo": "a8511146-e4e1-4c07-f417-92bc795abeb9",
-															"fieldName": "oTitle",
+															"fieldNo": "b6d6b23d-c13f-42e2-87cb-09b06ace328a",
+															"fieldName": "titleOrg",
 															"fieldParent": "777ba9c5-948d-4b21-ec65-3a9670090649",
-															"fieldType": "sap.m.Title",
+															"fieldType": "nep.bootstrap.Text",
 															"script": "",
 															"customComponent": false,
 															"request": [],
 															"response": [],
 															"attributes": [
-																{
-																	"attribute": "titleStyle",
-																	"grouping": "Properties",
-																	"value": "H4",
-																	"script": "",
-																	"translation": []
-																},
 																{
 																	"attribute": "text",
 																	"grouping": "Properties",
@@ -2917,9 +2660,16 @@
 																	"translation": []
 																},
 																{
-																	"attribute": "styleClassMargin",
+																	"attribute": "margin",
 																	"grouping": "Properties",
-																	"value": "sapUiSmallMarginBegin",
+																	"value": "MarginStart3",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "type",
+																	"grouping": "Properties",
+																	"value": "Heading2",
 																	"script": "",
 																	"translation": []
 																}
@@ -2954,13 +2704,6 @@
 																	"attribute": "labelSpanL",
 																	"grouping": "Properties",
 																	"value": "12",
-																	"script": "",
-																	"translation": []
-																},
-																{
-																	"attribute": "columnsM",
-																	"grouping": "Properties",
-																	"value": "1",
 																	"script": "",
 																	"translation": []
 																},
@@ -3001,6 +2744,13 @@
 																			"attribute": "text",
 																			"grouping": "Properties",
 																			"value": "Søk",
+																			"script": "",
+																			"translation": []
+																		},
+																		{
+																			"attribute": "styleClass",
+																			"grouping": "Properties",
+																			"value": "lblHeading",
 																			"script": "",
 																			"translation": []
 																		},
@@ -3107,16 +2857,16 @@
 															"response": [],
 															"attributes": [
 																{
-																	"attribute": "fixedLayout",
+																	"attribute": "showSeparators",
 																	"grouping": "Properties",
-																	"value": "false",
+																	"value": "None",
 																	"script": "",
 																	"translation": []
 																},
 																{
-																	"attribute": "alternateRowColors",
+																	"attribute": "fixedLayout",
 																	"grouping": "Properties",
-																	"value": "true",
+																	"value": "false",
 																	"script": "",
 																	"translation": []
 																}
@@ -3147,6 +2897,13 @@
 																					"attribute": "text",
 																					"grouping": "Properties",
 																					"value": "Navn",
+																					"script": "",
+																					"translation": []
+																				},
+																				{
+																					"attribute": "styleClass",
+																					"grouping": "Properties",
+																					"value": "lblHeading",
 																					"script": "",
 																					"translation": []
 																				}
@@ -3190,6 +2947,13 @@
 																					"value": "Adresse",
 																					"script": "",
 																					"translation": []
+																				},
+																				{
+																					"attribute": "styleClass",
+																					"grouping": "Properties",
+																					"value": "lblHeading",
+																					"script": "",
+																					"translation": []
 																				}
 																			],
 																			"data": []
@@ -3231,6 +2995,13 @@
 																					"value": "Postnummer",
 																					"script": "",
 																					"translation": []
+																				},
+																				{
+																					"attribute": "styleClass",
+																					"grouping": "Properties",
+																					"value": "lblHeading",
+																					"script": "",
+																					"translation": []
 																				}
 																			],
 																			"data": []
@@ -3270,6 +3041,13 @@
 																					"attribute": "text",
 																					"grouping": "Properties",
 																					"value": "Poststed",
+																					"script": "",
+																					"translation": []
+																				},
+																				{
+																					"attribute": "styleClass",
+																					"grouping": "Properties",
+																					"value": "lblHeading",
 																					"script": "",
 																					"translation": []
 																				}
@@ -4287,35 +4065,7 @@
 										{
 											"attribute": "size",
 											"grouping": "Properties",
-											"value": "80px",
-											"script": "",
-											"translation": []
-										},
-										{
-											"attribute": "resizable",
-											"grouping": "Properties",
-											"value": "false",
-											"script": "",
-											"translation": []
-										}
-									],
-									"data": []
-								},
-								{
-									"fieldNo": "669d55c6-32e6-457b-f116-2b8b1d36d1d6",
-									"fieldName": "layoutLangBar",
-									"fieldParent": "e5327b39-c40a-440d-c2f2-facd71b30899",
-									"fieldType": "sap.ui.layout.SplitterLayoutData",
-									"script": "",
-									"customComponent": false,
-									"refObject": "panLanguage",
-									"request": [],
-									"response": [],
-									"attributes": [
-										{
-											"attribute": "size",
-											"grouping": "Properties",
-											"value": "50px",
+											"value": "100px",
 											"script": "",
 											"translation": []
 										},
@@ -5023,6 +4773,25 @@
 								"\r",
 								"sap.ui.getCore().attachInit(function (startParams) {\r",
 								"\r",
+								"    gridActivities.onAfterRendering = function (oEvent) {\r",
+								"\r",
+								"        var elem = document.getElementById(\"gridActivities-listUl\");\r",
+								"        elem.setAttribute(\"aria-label\", \"Liste\");\r",
+								"        elem.setAttribute(\"aria-labelledby\", \"Liste\");\r",
+								"\r",
+								"        var cardImages = document.getElementsByClassName(\"nbsCard-image\");\r",
+								"\r",
+								"        for (let i = 0; i < cardImages.length; i++) {\r",
+								"\r",
+								"            var elem = cardImages[i];\r",
+								"            elem.setAttribute(\"aria-label\", \"Bilde\");\r",
+								"            elem.setAttribute(\"aria-labelledby\", \"Bilde\");\r",
+								"            elem.setAttribute(\"role\", \"None\");\r",
+								"            \r",
+								"        }\r",
+								"\r",
+								"    };\r",
+								"\r",
 								"    translate(\"NO\");\r",
 								"\r",
 								"    gridActivities.setCustomLayout(new sap.ui.layout.cssgrid.GridBoxLayout({\r",
@@ -5113,7 +4882,11 @@
 								"    });\r",
 								"}\r",
 								"\r",
-								"window.initMap = initMap;"
+								"window.initMap = initMap;\r",
+								"\r",
+								"\r",
+								"\r",
+								""
 							],
 							"customComponent": false,
 							"request": [],
@@ -5130,7 +4903,7 @@
 			"data": []
 		}
 	],
-	"ver": "22.6.13.223",
+	"ver": "22.6.24.921",
 	"application": "events",
 	"title": "PORSGRUNN KOMMUNE",
 	"description": "PORSGRUNN KOMMUNE",
@@ -5188,6 +4961,10 @@
 		"    border-bottom: none;\r",
 		"}\r",
 		"\r",
+		".sapMBtnContent {\r",
+		"    font-size: 16px\r",
+		"}\r",
+		"\r",
 		".navBar {\r",
 		"    border-radius: 0;\r",
 		"    border-bottom: 1px solid #f4f3f2;\r",
@@ -5195,6 +4972,10 @@
 		"\r",
 		".sapUiTheme-sap_horizon_dark .navBar {\r",
 		"    border-bottom: 1px solid #242e38;\r",
+		"}\r",
+		"\r",
+		".lblHeading {\r",
+		"    font-size: 18px !important;\r",
 		"}\r",
 		"\r",
 		".navBar .sapMIBar {\r",
@@ -5273,6 +5054,18 @@
 		".gMaps {\r",
 		"    height: 700px;\r",
 		"    width: 100%;\r",
+		"}\r",
+		"\r",
+		".butActive {\r",
+		"    border-bottom: 1px solid #0070f2;\r",
+		"}\r",
+		"\r",
+		".butNav .sapMIBar .sapMBtn .sapMBtnInner.sapMBtnDefault {\r",
+		"    color: #556b81;\r",
+		"}\r",
+		"\r",
+		".sapUiTheme-sap_horizon_dark .butNav .sapMIBar .sapMBtn .sapMBtnInner.sapMBtnDefault {\r",
+		"    color: white;\r",
 		"}"
 	],
 	"header": [
