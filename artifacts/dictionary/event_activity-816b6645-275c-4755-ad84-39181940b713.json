@@ -70,6 +70,7 @@
 	"description": "Event: Activity",
 	"ver": "22.6.12.1723",
 	"enableAudit": false,
+	"includeDataInPackage": false,
 	"package": "3f97e980-7613-4613-b374-7ad2f7f76664",
 	"rolesRead": [],
 	"rolesWrite": []

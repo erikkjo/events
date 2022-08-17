@@ -144,13 +144,6 @@
 													"value": "HeaderToolbar",
 													"script": "",
 													"translation": []
-												},
-												{
-													"attribute": "AriaLabelledBy",
-													"grouping": "Accessibility",
-													"value": "Liste",
-													"script": "",
-													"translation": []
 												}
 											],
 											"data": [
@@ -194,7 +187,7 @@
 														{
 															"attribute": "titleStyle",
 															"grouping": "Properties",
-															"value": "H4",
+															"value": "H3",
 															"script": "",
 															"translation": []
 														},
@@ -202,6 +195,13 @@
 															"attribute": "text",
 															"grouping": "Properties",
 															"value": "PORSGRUNN KOMMUNE",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "level",
+															"grouping": "Properties",
+															"value": "H1",
 															"script": "",
 															"translation": []
 														}
@@ -247,15 +247,8 @@
 														{
 															"attribute": "press",
 															"grouping": "Events",
-															"value": "Anonymous Function",
-															"script": [
-																"==OBJECT STRING==",
-																"navActivity.addStyleClass(\"butActive\");\r",
-																"navOrg.removeStyleClass(\"butActive\");\r",
-																"oNav.to(oPageAct);\r",
-																""
-															],
-															"language": "javascript",
+															"value": "location.hash = \"aktivitet\";",
+															"script": "location.hash = \"aktivitet\";",
 															"translation": []
 														}
 													],
@@ -288,14 +281,8 @@
 														{
 															"attribute": "press",
 															"grouping": "Events",
-															"value": "Anonymous Function",
-															"script": [
-																"==OBJECT STRING==",
-																"navOrg.addStyleClass(\"butActive\");\r",
-																"navActivity.removeStyleClass(\"butActive\");\r",
-																"oNav.to(oPageOrg);"
-															],
-															"language": "javascript",
+															"value": "location.hash = \"organisasjon\";",
+															"script": "location.hash = \"organisasjon\";",
 															"translation": []
 														}
 													],
@@ -331,16 +318,16 @@
 															"translation": []
 														},
 														{
-															"attribute": "text",
+															"attribute": "styleClass",
 															"grouping": "Properties",
-															"value": "Kontrast",
+															"value": "butNav",
 															"script": "",
 															"translation": []
 														},
 														{
-															"attribute": "styleClass",
+															"attribute": "icon",
 															"grouping": "Properties",
-															"value": "butNav",
+															"value": "sap-icon://fa-solid/palette",
 															"script": "",
 															"translation": []
 														},
@@ -352,12 +339,55 @@
 																"==OBJECT STRING==",
 																"if (sap.ui.getCore().getConfiguration().getTheme() === \"sap_horizon\") {\r",
 																"    sap.ui.getCore().applyTheme(\"sap_horizon_dark\");\r",
+																"    navContrast.setIcon(\"sap-icon://palette\");\r",
 																"} else {\r",
 																"    sap.ui.getCore().applyTheme(\"sap_horizon\");\r",
+																"    navContrast.setIcon(\"sap-icon://fa-solid/palette\");\r",
 																"}\r",
 																""
 															],
 															"language": "javascript",
+															"translation": []
+														}
+													],
+													"data": []
+												},
+												{
+													"fieldNo": "13f0aef0-b1b7-46c5-cc4a-5bcaee644005",
+													"fieldName": "navLanguage",
+													"fieldParent": "59b4787b-0b60-420e-a6e1-ece1965524f3",
+													"fieldType": "sap.m.Button",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "type",
+															"grouping": "Properties",
+															"value": "Default",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "styleClass",
+															"grouping": "Properties",
+															"value": "butNav",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "icon",
+															"grouping": "Properties",
+															"value": "sap-icon://fa-solid/globe",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "press",
+															"grouping": "Events",
+															"value": "diaLanguages.show();",
+															"script": "diaLanguages.show();",
 															"translation": []
 														}
 													],
@@ -412,6 +442,26 @@
 												}
 											],
 											"data": [
+												{
+													"fieldNo": "2d160d0d-c340-4c93-8e62-df90333eaaa1",
+													"fieldName": "oPageAccessibleLandmarkInfo2",
+													"fieldParent": "aa9534b4-5b92-42d3-8663-ef96ae33bf39",
+													"fieldType": "sap.m.PageAccessibleLandmarkInfo",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "contentLabel",
+															"grouping": "Properties",
+															"value": "Aktiviteter",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												},
 												{
 													"fieldNo": "630403b9-5333-459a-b6fa-5dd0b2b82def",
 													"fieldName": "panLogo",
@@ -1011,6 +1061,13 @@
 																					"value": "None",
 																					"script": "",
 																					"translation": []
+																				},
+																				{
+																					"attribute": "ariaLabelledBy",
+																					"grouping": "Properties",
+																					"value": "titleAct",
+																					"script": "",
+																					"translation": []
 																				}
 																			],
 																			"data": [
@@ -1038,13 +1095,7 @@
 																							"script": [
 																								"==OBJECT STRING==",
 																								"const data = oEvent.oSource.getBindingContext().getObject();\r",
-																								"\r",
-																								"try {\r",
-																								"    diaDetail.show();\r",
-																								"    modelcontDetail.setData(data);\r",
-																								"} catch (e) {\r",
-																								"\r",
-																								"}\r",
+																								"location.hash = \"aktivitet&\" + data.id + \"&\" + new Date().getTime();\r",
 																								""
 																							],
 																							"language": "javascript",
@@ -1406,23 +1457,7 @@
 																					"script": [
 																						"==OBJECT STRING==",
 																						"const data = oEvent.mParameters.appointment.getBindingContext().getObject();\r",
-																						"\r",
-																						"try {\r",
-																						"    diaDetail.show();\r",
-																						"\r",
-																						"    setTimeout(function () {\r",
-																						"        modelcontDetail.setData(data);\r",
-																						"    }, 200);\r",
-																						"\r",
-																						"} catch (e) {\r",
-																						"\r",
-																						"    diaDetail.show();\r",
-																						"\r",
-																						"    setTimeout(function () {\r",
-																						"        modelcontDetail.setData(data);\r",
-																						"    }, 200);\r",
-																						"    \r",
-																						"}"
+																						"location.hash = \"aktivitet&\" + data.id + \"&\" + new Date().getTime();"
 																					],
 																					"translation": []
 																				}
@@ -2575,6 +2610,40 @@
 												}
 											],
 											"data": [
+												{
+													"fieldNo": "d094fd6e-3927-4209-8c24-8b6f18a87fd4",
+													"fieldName": "oPageAccessibleLandmarkInfo1",
+													"fieldParent": "ea08ea25-0419-45d7-9e26-c4b0603bed59",
+													"fieldType": "sap.m.PageAccessibleLandmarkInfo",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "rootLabel",
+															"grouping": "Properties",
+															"value": " rootLabel",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "contentRole",
+															"grouping": "Properties",
+															"value": "Complementary",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "contentLabel",
+															"grouping": "Properties",
+															"value": "Organisasjoner",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												},
 												{
 													"fieldNo": "580abce5-b36b-4498-f0ac-c1903e0f2cd5",
 													"fieldName": "panLogo1",
@@ -4100,6 +4169,397 @@
 					"attributes": [],
 					"data": [
 						{
+							"fieldNo": "ffb12de3-fec6-46e6-8d88-4ebe0a6b66e7",
+							"fieldName": "diaLanguages",
+							"fieldParent": "5a2654cb-b040-410b-a050-36d8b626e827",
+							"fieldType": "nep.bootstrap.Modal",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "title",
+									"grouping": "Properties",
+									"value": "Velg Språk",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": [
+								{
+									"fieldNo": "9649d43b-d4fe-4ac2-95ea-f13b5cdf692d",
+									"fieldName": "Content",
+									"fieldParent": "ffb12de3-fec6-46e6-8d88-4ebe0a6b66e7",
+									"fieldType": "nep.bootstrap.ModalContent",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "position",
+											"grouping": "Properties",
+											"value": "Content",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "932b39ce-5bda-4a48-e6b6-cfc78420313f",
+											"fieldName": "oList",
+											"fieldParent": "9649d43b-d4fe-4ac2-95ea-f13b5cdf692d",
+											"fieldType": "sap.m.List",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "showSeparators",
+													"grouping": "Properties",
+													"value": "None",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "77b36eec-695c-4818-e47c-c5a9812db878",
+													"fieldName": "oStandardListItemNO",
+													"fieldParent": "932b39ce-5bda-4a48-e6b6-cfc78420313f",
+													"fieldType": "sap.m.StandardListItem",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "type",
+															"grouping": "Properties",
+															"value": "Active",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "title",
+															"grouping": "Properties",
+															"value": "Norsk",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "icon",
+															"grouping": "Properties",
+															"value": "/media/root/events/no.png",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "press",
+															"grouping": "Events",
+															"value": "diaLanguages.hide();",
+															"script": "diaLanguages.hide();",
+															"translation": []
+														}
+													],
+													"data": []
+												},
+												{
+													"fieldNo": "097a311d-c226-4484-dc37-0f83c4492fa9",
+													"fieldName": "oStandardListItemAR",
+													"fieldParent": "932b39ce-5bda-4a48-e6b6-cfc78420313f",
+													"fieldType": "sap.m.StandardListItem",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "type",
+															"grouping": "Properties",
+															"value": "Active",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "title",
+															"grouping": "Properties",
+															"value": "Arabisk",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "icon",
+															"grouping": "Properties",
+															"value": "/media/root/events/ar.png",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "press",
+															"grouping": "Events",
+															"value": "diaLanguages.hide();",
+															"script": "diaLanguages.hide();",
+															"translation": []
+														}
+													],
+													"data": []
+												},
+												{
+													"fieldNo": "a12f6bb6-7b88-41cb-b7be-fb06a0d9fcdc",
+													"fieldName": "oStandardListItemEN",
+													"fieldParent": "932b39ce-5bda-4a48-e6b6-cfc78420313f",
+													"fieldType": "sap.m.StandardListItem",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "type",
+															"grouping": "Properties",
+															"value": "Active",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "title",
+															"grouping": "Properties",
+															"value": "English",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "icon",
+															"grouping": "Properties",
+															"value": "/media/root/events/en.png",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "press",
+															"grouping": "Events",
+															"value": "diaLanguages.hide();",
+															"script": "diaLanguages.hide();",
+															"translation": []
+														}
+													],
+													"data": []
+												},
+												{
+													"fieldNo": "c1bf1cc4-2ec5-42a9-843e-d2d5d34c78e5",
+													"fieldName": "oStandardListItemPL",
+													"fieldParent": "932b39ce-5bda-4a48-e6b6-cfc78420313f",
+													"fieldType": "sap.m.StandardListItem",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "type",
+															"grouping": "Properties",
+															"value": "Active",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "title",
+															"grouping": "Properties",
+															"value": "Polsk",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "icon",
+															"grouping": "Properties",
+															"value": "/media/root/events/pl.png",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "press",
+															"grouping": "Events",
+															"value": "diaLanguages.hide();",
+															"script": "diaLanguages.hide();",
+															"translation": []
+														}
+													],
+													"data": []
+												},
+												{
+													"fieldNo": "9a74df3f-74b6-43bb-953f-fd5ffbba646d",
+													"fieldName": "oStandardListItemDE",
+													"fieldParent": "932b39ce-5bda-4a48-e6b6-cfc78420313f",
+													"fieldType": "sap.m.StandardListItem",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "type",
+															"grouping": "Properties",
+															"value": "Active",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "title",
+															"grouping": "Properties",
+															"value": "German",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "icon",
+															"grouping": "Properties",
+															"value": "/media/root/events/de.png",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "press",
+															"grouping": "Events",
+															"value": "diaLanguages.hide();",
+															"script": "diaLanguages.hide();",
+															"translation": []
+														}
+													],
+													"data": []
+												},
+												{
+													"fieldNo": "6bff7a20-f62c-415b-ef82-8c758b19817f",
+													"fieldName": "oStandardListItemLT",
+													"fieldParent": "932b39ce-5bda-4a48-e6b6-cfc78420313f",
+													"fieldType": "sap.m.StandardListItem",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "type",
+															"grouping": "Properties",
+															"value": "Active",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "title",
+															"grouping": "Properties",
+															"value": "Litauen",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "icon",
+															"grouping": "Properties",
+															"value": "/media/root/events/lt.png",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "press",
+															"grouping": "Events",
+															"value": "diaLanguages.hide();",
+															"script": "diaLanguages.hide();",
+															"translation": []
+														}
+													],
+													"data": []
+												},
+												{
+													"fieldNo": "265f46b8-5c60-4c2d-ebb3-f7a4a1450bc0",
+													"fieldName": "oStandardListItemSO",
+													"fieldParent": "932b39ce-5bda-4a48-e6b6-cfc78420313f",
+													"fieldType": "sap.m.StandardListItem",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "type",
+															"grouping": "Properties",
+															"value": "Active",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "title",
+															"grouping": "Properties",
+															"value": "Somalia",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "icon",
+															"grouping": "Properties",
+															"value": "/media/root/events/so.png",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "press",
+															"grouping": "Events",
+															"value": "diaLanguages.hide();",
+															"script": "diaLanguages.hide();",
+															"translation": []
+														}
+													],
+													"data": []
+												},
+												{
+													"fieldNo": "0bd490ab-6f30-469b-b970-894e21daf8f6",
+													"fieldName": "oStandardListItemUK",
+													"fieldParent": "932b39ce-5bda-4a48-e6b6-cfc78420313f",
+													"fieldType": "sap.m.StandardListItem",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "type",
+															"grouping": "Properties",
+															"value": "Active",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "title",
+															"grouping": "Properties",
+															"value": "Ukraina",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "icon",
+															"grouping": "Properties",
+															"value": "/media/root/events/uk.png",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "press",
+															"grouping": "Events",
+															"value": "diaLanguages.hide()",
+															"script": "diaLanguages.hide()",
+															"translation": []
+														}
+													],
+													"data": []
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
 							"fieldNo": "4608d727-e971-43ce-a845-0d7bced4c21f",
 							"fieldName": "diaDetail",
 							"fieldParent": "5a2654cb-b040-410b-a050-36d8b626e827",
@@ -4617,7 +5077,9 @@
 										"    let activity = modelgridActivities.oData[i];\r",
 										"    let org = ModelData.FindFirst(modelDataMaster.oData.organisation, \"organisasjonsnummer\", activity.organisasjonsnummer);\r",
 										"    codeAddress(org.forretningsadresse_adresse1 + \", \" + org.forretningsadresse_adresse2 + \", \" + org.forretningsadresse_postnummer + \" \" + org.forretningsadresse_poststed, activity);\r",
-										"}"
+										"}\r",
+										"\r",
+										"handleHashNavigation(true);"
 									],
 									"language": "javascript",
 									"translation": []
@@ -4647,6 +5109,8 @@
 								"==OBJECT STRING==",
 								"const events = {\r",
 								"    search: function () {\r",
+								"\r",
+								"        // location.hash = \"aktivitet\";\r",
 								"\r",
 								"        apiActivities({\r",
 								"            parameters: {\r",
@@ -4729,30 +5193,50 @@
 								"\r",
 								"    // Any content ?\r",
 								"    if (location.hash === '') {\r",
-								"        oApp.to(oPageStart);\r",
+								"        oNav.to(oPageAct);\r",
 								"        return;\r",
 								"    }\r",
 								"\r",
 								"    // Parse Hash\r",
 								"    let parts = location.hash.substring(1).split('&');\r",
 								"\r",
-								"    // Object\r",
-								"    if (parts[0].indexOf('-') > -1) {\r",
-								"        navObject = parts[0].split('-')[0];\r",
-								"        navAction = parts[0].split('-')[1];\r",
-								"    } else {\r",
-								"        return;\r",
+								"    navAction = parts[0];\r",
+								"    navObject = parts[1];\r",
+								"\r",
+								"    switch (navAction) {\r",
+								"\r",
+								"        case 'organisasjon':\r",
+								"            navOrg.addStyleClass(\"butActive\");\r",
+								"            navActivity.removeStyleClass(\"butActive\");\r",
+								"            oNav.to(oPageOrg);\r",
+								"            break;\r",
+								"\r",
+								"        case 'aktivitet':\r",
+								"            navActivity.addStyleClass(\"butActive\");\r",
+								"            navOrg.removeStyleClass(\"butActive\");\r",
+								"            oNav.to(oPageAct);\r",
+								"\r",
+								"            if (navObject) {\r",
+								"                const data = ModelData.FindFirst(gridActivities, \"id\", navObject);\r",
+								"                if (data) {\r",
+								"\r",
+								"                    modelcontDetail.setData(data);\r",
+								"\r",
+								"                    setTimeout(function () {\r",
+								"                        diaDetail.show();\r",
+								"                    }, 200);\r",
+								"\r",
+								"                }\r",
+								"            }\r",
+								"            break;\r",
+								"\r",
+								"        default:\r",
+								"            location.hash = \"\";\r",
+								"            break;\r",
 								"    }\r",
 								"\r",
-								"    const data = ModelData.FindFirst(exampleData, \"id\", navAction);\r",
-								"\r",
-								"    // Set Model Data\r",
-								"    // modeloPageDetail.setData(data);\r",
-								"\r",
-								"    // Navigate\r",
-								"    // oApp.to(oPageDetail);\r",
-								"\r",
 								"}\r",
+								"\r",
 								"\r",
 								""
 							],
@@ -4773,25 +5257,6 @@
 								"\r",
 								"sap.ui.getCore().attachInit(function (startParams) {\r",
 								"\r",
-								"    gridActivities.onAfterRendering = function (oEvent) {\r",
-								"\r",
-								"        var elem = document.getElementById(\"gridActivities-listUl\");\r",
-								"        elem.setAttribute(\"aria-label\", \"Liste\");\r",
-								"        elem.setAttribute(\"aria-labelledby\", \"Liste\");\r",
-								"\r",
-								"        var cardImages = document.getElementsByClassName(\"nbsCard-image\");\r",
-								"\r",
-								"        for (let i = 0; i < cardImages.length; i++) {\r",
-								"\r",
-								"            var elem = cardImages[i];\r",
-								"            elem.setAttribute(\"aria-label\", \"Bilde\");\r",
-								"            elem.setAttribute(\"aria-labelledby\", \"Bilde\");\r",
-								"            elem.setAttribute(\"role\", \"None\");\r",
-								"            \r",
-								"        }\r",
-								"\r",
-								"    };\r",
-								"\r",
 								"    translate(\"NO\");\r",
 								"\r",
 								"    gridActivities.setCustomLayout(new sap.ui.layout.cssgrid.GridBoxLayout({\r",
@@ -4806,7 +5271,6 @@
 								"    script.type = 'text/javascript';\r",
 								"    script.src = 'https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&v=weekly';\r",
 								"    document.body.appendChild(script);\r",
-								"\r",
 								"\r",
 								"    setTimeout(function () {\r",
 								"\r",
@@ -4853,26 +5317,7 @@
 								"            });\r",
 								"\r",
 								"            google.maps.event.addListener(marker, \"click\", function (e) {\r",
-								"\r",
-								"                var data = ModelData.FindFirst(modelgridActivities.oData, \"id\", marker.id);\r",
-								"\r",
-								"                try {\r",
-								"                    diaDetail.show();\r",
-								"\r",
-								"                    setTimeout(function () {\r",
-								"                        modelcontDetail.setData(data);\r",
-								"                    }, 200);\r",
-								"\r",
-								"                } catch (e) {\r",
-								"\r",
-								"                    diaDetail.show();\r",
-								"\r",
-								"                    setTimeout(function () {\r",
-								"                        modelcontDetail.setData(data);\r",
-								"                    }, 200);\r",
-								"\r",
-								"                }\r",
-								"\r",
+								"                location.hash = \"aktivitet&\" + marker.id + \"&\" + new Date().getTime();\r",
 								"            });\r",
 								"\r",
 								"\r",
@@ -4883,8 +5328,6 @@
 								"}\r",
 								"\r",
 								"window.initMap = initMap;\r",
-								"\r",
-								"\r",
 								"\r",
 								""
 							],
@@ -4903,7 +5346,7 @@
 			"data": []
 		}
 	],
-	"ver": "22.6.24.921",
+	"ver": "22.8.17.842",
 	"application": "events",
 	"title": "PORSGRUNN KOMMUNE",
 	"description": "PORSGRUNN KOMMUNE",
@@ -5066,6 +5509,11 @@
 		"\r",
 		".sapUiTheme-sap_horizon_dark .butNav .sapMIBar .sapMBtn .sapMBtnInner.sapMBtnDefault {\r",
 		"    color: white;\r",
+		"}\r",
+		"\r",
+		"\r",
+		".text-muted {\r",
+		"    color: #abddff!important;\r",
 		"}"
 	],
 	"header": [
@@ -5076,7 +5524,7 @@
 		"\r",
 		"<link rel=\"icon\" href=\"/media/root/events/porsgrunn.ico\">\r",
 		"\r",
-		"\r",
+		" <script async defer crossorigin=\"anonymous\" src=\"https://connect.facebook.net/en_US/sdk.js\"></script>\r",
 		"\r",
 		""
 	],
