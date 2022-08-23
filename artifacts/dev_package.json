@@ -4,7 +4,7 @@
 	"createdBy": "ole-andre.haugen@neptune-software.com",
 	"git": {
 		"targetServers": [],
-		"remote": "https://github.com/OleAndreHaugen/events.git",
+		"remote": "https://github.com/erikkjo/events.git",
 		"testServers": [],
 		"packageJSON": [
 			"==OBJECT STRING==",
